@@ -3698,16 +3698,16 @@ text-align: center;
 }
 
 .icon-pack.tables {
-    background-image: url(img/icons/books-y.png);
+    background-image: url(./img/icons/books-y.png);
 }
 ._active .icon-pack.tables {
-    background-image: url(img/icons/books-r.png);
+    background-image: url(./img/icons/books-r.png);
 }
 
 
 
 .icon-pack.dsp {
-    background-image: url(img/icons/kitshens/dsp.png);
+    background-image: url(./img/icons/kitshens/dsp.png);
 }
 
 
