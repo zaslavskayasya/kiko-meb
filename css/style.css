@@ -3691,7 +3691,7 @@ text-align: center;
 }
 
 .icon-pack.bads {
-    background-image: url(/../img/icons/beds-y.png);
+    background-image: url(../img/icons/beds-y.png);
 }
 ._active .icon-pack.bads {
     background-image: url(img/icons/beds-r.png);
