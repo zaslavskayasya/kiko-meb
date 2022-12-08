@@ -3691,14 +3691,14 @@ text-align: center;
 }
 
 .icon-pack.bads {
-    background-image: url(img/icons/beds-y.png);
+    background-image: url(/../img/icons/beds-y.png);
 }
 ._active .icon-pack.bads {
     background-image: url(img/icons/beds-r.png);
 }
 
 .icon-pack.tables {
-    background-image: url(./img/icons/books-y.png);
+    background-image: url(/img/icons/books-y.png);
 }
 ._active .icon-pack.tables {
     background-image: url(./img/icons/books-r.png);
