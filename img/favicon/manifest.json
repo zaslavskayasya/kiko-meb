@@ -1,0 +1,21 @@
+{
+ "name": "МОИ ОБЛАКА - натяжные потолки",
+ "short_name": "МОИ ОБЛАКА",
+ "icons": [{
+  "src": "icon_128x128.png",
+  "sizes": "128x128",
+  "type": "image/png"
+ }, {
+  "src": "icon_152x152.png",
+  "sizes": "152x152",
+  "type": "image/png"
+ }, {
+  "src": "icon_192x192.png",
+  "sizes": "192x192",
+  "type": "image/png"
+ }],
+ "start_url": "../index.html?homescreen=1",
+ "display": "standalone",
+ "background_color": "#fff",
+ "theme_color": "#fff"
+}
