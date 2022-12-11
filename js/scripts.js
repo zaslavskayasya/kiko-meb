@@ -108,6 +108,7 @@ $(function(){
 			$('html, body').stop().animate({
 				scrollTop: offsetTop
 			}, 500);
+			$('.firstActive').show();
 		});
 		
 		$.extend({
@@ -304,7 +305,7 @@ $(document).ready(function(){
 			mouseDrag: false,
 			touchDrag: false,
 			pullDrag: false,
-			autoplay: false,
+			autoplay: true,
 			/*autoplayTimeout: 6000,*/
 			autoplayTimeout: 10000,
 			items: 1,
