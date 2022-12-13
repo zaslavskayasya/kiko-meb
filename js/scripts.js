@@ -235,6 +235,25 @@ $(document).ready(function(){
 		$('#countdown1').countdown(threeDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
 		$('#countdown2').countdown(oneDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
 		$('#countdown3').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown4').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown5').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown6').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown7').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown8').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown9').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown10').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown11').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown12').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown13').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown14').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown15').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown16').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown17').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown18').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown19').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown20').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+
+	
 	})();
 	
 	// Catalog
@@ -283,37 +302,38 @@ $(document).ready(function(){
 			nav: true,
 			dots: false
 		});*/
-		$('.slider.pc').owlCarousel({
-			center: false,
-			merge: false,
-			loop: true,
-			mouseDrag: false,
-			touchDrag: false,
-			pullDrag: false,
-			autoplay: true,
-			/*autoplayTimeout: 6000,*/
-			autoplayTimeout: 10000,
-			items: 1,
-			margin: 0,
-			nav: false,
-			dots: true
-		});
+		// $('.slider.pc').owlCarousel({
+		// 	center: false,
+		// 	merge: false,
+		// 	loop: true,
+		// 	mouseDrag: false,
+		// 	touchDrag: false,
+		// 	pullDrag: false,
+		// 	autoplay: true,
+		// 	/*autoplayTimeout: 6000,*/
+		// 	autoplayTimeout: 10000,
+		// 	items: 1,
+		// 	margin: 0,
+		// 	nav: false,
+		// 	dots: true
+		// });
 		$('.slider-item').owlCarousel({
 			center: false,
-			merge: false,
-			loop: true,		
+			merge: false,	
 			mouseDrag: false,
 			touchDrag: false,
 			pullDrag: false,
-			autoplay: true,
+			autoplay: false,
 			/*autoplayTimeout: 6000,*/
 			autoplayTimeout: 10000,
 			items: 1,
 			margin: 0,
 			nav: true,
-			dots: true,
+			dots: false,
 			navigation : true,
-			pagination: true,
+			pagination: false,
+			loop:true,
+			autoWidth:true,
 		});
 
 	})();
