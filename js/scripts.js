@@ -32,29 +32,7 @@ $(function(){
 		});
 	})();
 	
-	
-	//Project Slider
-		$('.project_slider').slick({
-  slidesToShow: 3,
-  slidesToScroll: 3,
-  arrows: false,
-   responsive: [
-    {
-      breakpoint: 1200,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        arrows: false
-      }
-    }]
-      });
-	  
-	  //Project Slider
-		/*$('.prtfolio-slider').slick({
-        infinite: true,
-  slidesToShow: 4,
-  slidesToScroll: 3
-      });*/
+
 	// Menu
 	(function(){
 		var nav = $('.head__nav'),
@@ -63,8 +41,7 @@ $(function(){
 			scrollItems = menuItems.map(function(){
 				var item = $($(this).attr('href'));
 				if (item.length) { return item; }
-			})
-		;
+			});
 		
 		nav.on('click', 'a', function(e){
 			e.preventDefault();
@@ -159,76 +136,7 @@ $(document).ready(function(){
 				});
 			});
 
-	// (function(){
-	// 	var popup = $('.js-popup'),
-	// 		dark = $('.js-dark'),
-	// 		btnOpen = $('.js-open'),
-	// 		btnClose = $('.js-close')
-	// 	;
-		
-	// 	btnOpen.on('click', function(e){
-	// 		e.preventDefault();
-	// 		var item = $(this),
-	// 			href = item.attr('href')
-	// 		;
-			
-	// 		if(href == '#light'){
- //                $(href).find('.lights__cat').load('lights.html');
- //            }
-	// 		dark.addClass(cssActive);
-	// 		closePopup();
-	// 		$(href).addClass(cssActive);
-	// 	});
-		
-	// 	btnClose.on('click', function(){
-	// 		closePopup();
-	// 	});
-		
-	// 	function closePopup(){
-	// 		dark.removeClass(cssActive);
-	// 		popup.removeClass(cssActive);
-	// 	}
-		
-	// 	$('.f_phone').mask('(999) 999-99-99');
-		
-	// 	$('.js-form').submit(function(stop) {
- //            stop.preventDefault();
- //            var form = $(this),
-	// 			type = form.find('.f_type').val(),
- //                formId = form.parent().attr('id')
-	// 		;
-			
- //            form.find('.required').each(function() {
- //                $(this).removeClass(cssError);
- //            });
- //            $.ajax({
- //                type: form.attr('method'),
- //                url: '../validate.php',
- //                data: form.serialize(),
- //                dataType: "json",
- //                success: function(data){
-	// 				console.log(data);
- //                    if (data.result == 'success') {
- //                    				yaCounter48244739.reachGoal('LEAD');
-	// 					if(type == 'calc'){
-	// 						form.html('<h6><span>Спасибо!</span><br>Ваша заявка принята.</h6><p class="_after">Наш специалист свяжется с вами, чтобы ответить на ваши вопросы.</p>');
-	// 					} else {
-	// 						form.html('<h4><span>Спасибо!</span><br>Ваша заявка принята.</h4><p>Наш специалист свяжется с вами, чтобы ответить на ваши вопросы.</p>');
-	// 					}
- //                        if (formId == 'call' || formId == 'feed') {
- //                            setTimeout(closePopup, 3500);
- //                        }
- //                    } else {
- //                        for (var errorField in data.text_error) {
- //                            form.find('.' + errorField).addClass(cssError);
- //                        }
- //                    }
- //                }
- //            });
- //        });
-	// })();
-	
-	// Tabs
+		// Tabs
 	(function(){
 		var oneDays = new Date().getTime() + 102400000;
 		var threeDays = new Date().getTime() + 302400000;
@@ -283,8 +191,7 @@ $(document).ready(function(){
 				f_lights = $('.LIGHTS').val(),
 				f_summ = $('.SUMM'),
 				price = calc.find('.price'),
-				summ
-			;
+				summ;
 			
 			summ = f_area !== '' && f_area !== 0 ? (f_area*120) + (f_angle*150) + (f_lights*150) : 0;
 			f_summ.val(summ);
@@ -294,30 +201,7 @@ $(document).ready(function(){
 	
 	// Reviews
 	(function(){
-		/*$('.reviews').owlCarousel({
-			center: false,
-			merge: false,
-			loop: true,
-			items: 1,
-			margin: 0,
-			nav: true,
-			dots: false
-		});*/
-		// $('.slider.pc').owlCarousel({
-		// 	center: false,
-		// 	merge: false,
-		// 	loop: true,
-		// 	mouseDrag: false,
-		// 	touchDrag: false,
-		// 	pullDrag: false,
-		// 	autoplay: true,
-		// 	/*autoplayTimeout: 6000,*/
-		// 	autoplayTimeout: 10000,
-		// 	items: 1,
-		// 	margin: 0,
-		// 	nav: false,
-		// 	dots: true
-		// });
+	
 		$('.slider-item').owlCarousel({
 			center: false,
 			merge: false,	
@@ -381,32 +265,7 @@ $(document).ready(function(){
 		$('#two').trigger('click');
 	});
 	
-	// Map
-	// (function(){
-	// 	ymaps.ready(init);
-	// 	var myMap,
-	// 		myPlacemark
-	// 	;
-		
-	// 	function init(){
-	// 		myMap = new ymaps.Map("map", {
-	// 			center: [55.810648, 38.175624],
-	// 			zoom: 15,
-	// 			controls: ['zoomControl', 'fullscreenControl']
-	// 		});
-	// 		myPlacemark = new ymaps.Placemark([55.813754, 37.785], {
-	// 			hintContent: 'DECKEN'
-	// 		}, {
-	// 			iconLayout: 'default#image',
-	// 			iconImageHref: 'img/point.png',
-	// 			iconImageSize: [66, 86],
-	// 			iconImageOffset: [-33, -86]
-	// 		});
-	// 		myMap.geoObjects.add(myPlacemark);
-	// 		myMap.behaviors.disable('scrollZoom');
-	// 	}
-	// })();
-	// alert();
+	
 	$('.head__nav').slicknav({
 		label: ''
 	});
@@ -421,20 +280,9 @@ $(document).ready(function(){
 		$(this).parents('.slicknav_menu').find('.slicknav_btn').click()
 	})
 
-	// if($('.portfolio.mobile').length) {
-	// 		var w = 0;
-	// 		$('.portfolio.mobile a').each(function(){
-	// 			w += $(this).width()+parseInt($(this).css('padding-right'));
-	// 			// console.log(w);
-	// 		});
-	// 		$('.portfolio.mobile').css({'width' : w+'px'});
-	// 		$('.portfolio.mobile').wrap('<div class="over-wrap"></div>');
-	// 		$('.over-wrap').livequery(function(){
-	// 			$(this).jScrollPane();
-	// 		})
-	// 	}
-
 });
+
+
 
 jQuery(function($){
    $(".PHONE_WORK").mask("(999)999-99-99");
