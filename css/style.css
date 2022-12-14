@@ -2631,7 +2631,7 @@ select::-ms-expand {
     }
 
     .section h2 {
-        font: 18px/25px OpenSansExtraBold;
+        font: 22px/25px OpenSansExtraBold;
     }
 
     .catalog__hide .descr__price table {
@@ -4046,6 +4046,17 @@ text-align: center;
     }
     .calc__wrap h4 {
         font: 19px/19px OpenSansRegular;
+    }
+    .tab {
+        cursor: pointer;
+        padding: 0px
+    }
+    .ware-btn {
+        width: 68px;
+    }
+    .icon-pack {
+        width: 37px;
+        height: 34px;
     }
 
 }
