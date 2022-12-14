@@ -4034,6 +4034,12 @@ text-align: center;
         line-height: 16px;;
 
     }
+    .advantages li p {
+        font: 17px/18px OpenSansRegular;
+        -webkit-hyphens: manual;
+        -ms-hyphens: manual;
+        hyphens: manual;
+    }
 
 
 }
