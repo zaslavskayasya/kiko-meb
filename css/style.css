@@ -3911,9 +3911,9 @@ text-align: center;
     .catalog__hide .img{
         height:auto;
     }
-    .flag{
+    /* .flag{
         display: none;;
-    }
+    } */
 
 
     .plus li{
@@ -4052,11 +4052,15 @@ text-align: center;
         padding: 0px
     }
     .ware-btn {
-        width: 68px;
+        width: 44px;
     }
     .icon-pack {
         width: 37px;
         height: 34px;
+    }
+    .tab.ware-btn p {
+        font-size: 9px;
+        line-height: 9px;
     }
 
 }
