@@ -105,6 +105,7 @@ $(function(){
 			$(id).fadeIn(300);
 			catNav.find('li').removeClass(cssActive);
 			catNav.find('li[data-href='+id+']').addClass(cssActive);
+			$('.firstActive').show();
 			$('html, body').stop().animate({
 				scrollTop: offsetTop
 			}, 500);
@@ -232,26 +233,26 @@ $(document).ready(function(){
 		var oneDays = new Date().getTime() + 102400000;
 		var threeDays = new Date().getTime() + 302400000;
 		var fiveDays = new Date().getTime() + 452400000;
-		$('#countdown1').countdown(threeDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown2').countdown(oneDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown3').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown4').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown5').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown6').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown7').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown8').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown9').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown10').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown11').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown12').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown13').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown14').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown15').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown16').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown17').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown18').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown19').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
-		$('#countdown20').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>дней</li>' + '<li><span>%H</span><br>часов</li>' + '<li><span>%M</span><br>минут</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown1').countdown(threeDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown2').countdown(oneDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown3').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown4').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown5').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown6').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown7').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown8').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown9').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown10').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown11').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown12').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown13').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown14').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown15').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown16').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown17').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown18').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown19').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
+		$('#countdown20').countdown(fiveDays, function(event){$(this).html(event.strftime('<li><span>%D</span><br>днів</li>' + '<li><span>%H</span><br>годин</li>' + '<li><span>%M</span><br>хвилин</li>' + '<li><span class="_red">%S</span><br>секунд</li>'));});
 
 	
 	})();

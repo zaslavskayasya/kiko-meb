@@ -754,6 +754,9 @@ select::-ms-expand {
     /* position: absolute; */
     left: 12px;
     top: 155px;
+    background: #ffb600;
+    padding: 14px;
+    border-radius: 14px;
 }
 
 .countdown p {
@@ -771,6 +774,7 @@ select::-ms-expand {
     font-size: 0;
     padding: 10px 0;
     border-radius: 10px;
+    align-items: center;
 }
 
 .countdown ul li {
@@ -1272,8 +1276,8 @@ select::-ms-expand {
     vertical-align: top;
     background-position: 0 0;
     background-repeat: no-repeat;
-    width: 330px;
-    height: 300px;
+    max-width: 330px;
+    /* height: 300px; */
     position: relative;
     background-size: contain;
 }
@@ -2634,11 +2638,7 @@ select::-ms-expand {
         margin: 0 auto;
     }
 
-    .btn {
-        width: 90%;
-        margin: 0 auto;
-        float: none;
-    }
+
 
     .advantages {
         margin-top: 30px;
@@ -2710,10 +2710,6 @@ select::-ms-expand {
     .countdown ul {
         width: 300px;
         margin: 0 auto;
-    }
-
-    .countdown ul li span {
-        font: 30px/44px OpenSansSemiBold;
     }
 
     .countdown ul li span {
@@ -3786,7 +3782,7 @@ text-align: center;
     height: 48px;
     display: block;
     align-items: center;
-    padding: 14px 32px;
+    padding: 13px 32px 18px;
 }
 
 .controls .owl-page span{
@@ -3821,6 +3817,27 @@ text-align: center;
 }
 
 
+.img ._stamp{
+    display: block;
+}
+
+.img._stamp img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1200px){
+    .catalog__hide {
+        padding: 0 42px;
+    }
+    .countdown ul{
+        display: flex;
+        width: 380px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+} 
+
 @media screen and (max-width: 970px){
     .wrap-ITEMS {
         flex-direction: column;
@@ -3828,6 +3845,7 @@ text-align: center;
     }
     .wrp-item-images{
         /* order: 2; */
+        margin-bottom: 20px;;
     }
     .catalog__hide .descr {
         /* order:1; */
@@ -3844,11 +3862,6 @@ text-align: center;
     }
     .catalog__hide .descr li, .description-text {
         width: 81%;
-    }
-    .countdown ul{
-        display: flex;
-        width: 380px;
-        margin: 0 auto;
     }
     .countdown{
         margin: 14px auto;
@@ -3898,15 +3911,129 @@ text-align: center;
     }
     .img._stamp{
         margin-right: 20px;
+        min-width: 275px;
     }
     .descr.description-block{
         padding-left: 0px;
     }
     .catalog__hide .img{
-        height: 245px;
+        height:auto;
     }
     .flag{
         display: none;;
     }
+
+
+    .plus li{
+        margin-bottom: 30px;;
+    }
+    .section {
+        padding: 35px 0 0;
+    }
+
+    .promo h1{
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+    }
+    .calc {
+        float: right;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .wrap-inner-tabs{
+        flex-direction: column;
+    }
+    .ware-char-top {
+        flex-direction: row;
+    }
+    .ware-char-content{
+        width: 100%;
+    }
+    .catalog__hide.descr.btn{
+    }
+    .wrp-item-images {
+        flex-direction: column;
+    }
+    .img._stamp{
+        margin: 0 auto;
+    }
+    .wrap-ITEMS .description-text {
+        text-align: left;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+    .catalog__hide .descr{
+        padding-top:0px;
+    }
+
+    .countdown ul li {
+        padding: 0px 12px;
+        font: 12px/14px OpenSansSemiBold!important;
+    }
+    
+    .countdown ul li span{
+        font: 18px/20px OpenSansSemiBold;
+    }
+    .countdown ul {
+        width: 282px;
+    }
+    .ware-btn {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 85px;
+    }
+    .ware-char-top { 
+        flex-flow: wrap;
+        margin-right: 0px;      
+    }
+    .wrap-ITEMS .description-text {
+        text-align: center;
+        margin-bottom: 8px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .download {
+        margin: 0 auto;
+        width: 294px;
+        float: none;
+        height: 48px;
+        display: block;
+        align-items: center;
+        padding: 13px 32px 18px;
+    }
+    .catalog__hide .descr h4 {
+        margin: 0 auto 13px;
+    }
+    .promo h1{
+        margin-top: 20px;;
+    }
+    .promo {
+        height: 959px;
+    }
+    .calc__wrap__cell .box label {
+        font: 16px/13px OpenSansRegular;
+    }
+    .calc {
+        width: 100%;
+        padding: 14px 0 21px;
+    }
+    .section p {
+        font: 20px/22px OpenSansRegular;
+        text-align: center;
+    }
+    .catalog__hide {
+        padding: 0 10px;
+    }
+    .tab.ware-btn p{
+        font-size: 14px;
+        line-height: 16px;;
+
+    }
+
 
 }
