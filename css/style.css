@@ -186,7 +186,7 @@ input[type=button],
 input[type=submit] {
     margin: 0;
     padding: 0;
-    border: 0 none;
+    border: 1px solid transparent;
     outline: none;
     cursor: pointer;
 }
@@ -1068,6 +1068,9 @@ select::-ms-expand {
     position: relative;
     padding: 65px 0 0;
 }
+.section.printing{
+    padding-bottom: 60px;
+}
 
 .section h2 {
     font: 40px/42px OpenSansExtraBold;
@@ -1488,7 +1491,7 @@ select::-ms-expand {
 }
 
 .printing__img {
-    background: url(../img/printing_img.png) 0 0 no-repeat;
+    background: url(../img/backs/skinali.png) 0 0 no-repeat;
     width: 472px;
     height: 388px;
     display: block;
@@ -2042,7 +2045,7 @@ select::-ms-expand {
 }
 
 .banner._n2 {
-    background-image: url(../img/banner_list.jpg);
+    background-image: url(../img/backs/test.png);
 }
 
 .banner._n2 .img {
@@ -3816,6 +3819,13 @@ text-align: center;
 .img._stamp img{
     width: 100%;
 }
+
+
+.banner .bid p.sub_h4{
+    font: 30px/32px OpenSansRegular
+}
+
+
 
 
 @media screen and (max-width: 1200px){
