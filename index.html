@@ -51,7 +51,7 @@
 	</div>
 	
 	<div class="content">
-		<div class="promo" id="promo">
+		<div class="promo" id="promotion">
 			<div class="wrapper container">			
 				<div class="row mb100">
 					<a href="index.html" class="col-xs-8 logo-wraper"><span class="logo"></span></a>
@@ -77,7 +77,7 @@
 								<div class="calc__wrap__cell">
 									<div class="box _clear">
 										<div class="select" >
-											<label for="material">Тип фасадів</label>
+											<label for="standard-select">Тип фасадів</label>
 											<select class="select-field" name="material" id="standard-select">
 												<option value="Option 1">ДСП</option>
 												<option value="Option 2">Фарбований ДСП</option>
@@ -91,7 +91,7 @@
 									</div>
 									<div class="box _clear">
 										<label for="f_lights">Кількість погоних метрів</label>
-										<input type="text" class="LIGHTS required" name="LIGHTS" value="" autocomplete="off">
+										<input  id="f_lights" type="text" class="LIGHTS required" name="LIGHTS" value="" autocomplete="off">
 									</div>
 								</div>
 								<div class="calc__wrap__cell _pd">
@@ -103,7 +103,7 @@
 								</div>
 								<p>Ціна вказана без стільниці за стандартну висоту <br> 
 								чіткий кошторіс на замірі</p>
-								<label for="f_phone">Ваш телефон</label>
+								<label for="phonem">Ваш телефон</label>
 								<input type="text" class="PHONE_WORK required _full" name="phone" id="phonem" value="" placeholder="(000) 000 00 00" autocomplete="off" required>
 								<input type="text" class="_short" value="+3" readonly>
 								<input type="submit" class="btn" value="Замовити безкоштовний замір">
@@ -702,11 +702,11 @@
 					<h4><span>Кухні серії "Еко"</span></h4>
 					<p class="sub_h4">знижено на <b class="_red">25%</b> </p>
 					<p>Залишайте заявку і наші фахівці <br> вам перетелефонують</p>
-					<label for="">Ім'я <i>(Обов'язково для заповненя)</i></label>
-					<input type="text" class="NAME required" name="name" placeholder="Введіть ваше Ім'я" value="" required>
-					<label for="">Телефон <i>(Обов'язково для заповненя)</i></label>
+					<label for="client_name">Ім'я <i>(Обов'язково для заповненя)</i></label>
+					<input type="text" id="client_name" class="NAME required" name="name" placeholder="Введіть ваше Ім'я" value="" required>
+					<label for="client_phone">Телефон <i>(Обов'язково для заповненя)</i></label>
 					<input type="text" class="_short" value="+3" readonly>
-					<input type="text" class="PHONE_WORK required _full" name="phone" id="phonem" value="" placeholder="(000) 000 00 00" autocomplete="off" required>
+					<input type="text" class="PHONE_WORK required _full" name="phone" id="client_phone" value="" placeholder="(000) 000 00 00" autocomplete="off" required>
 					<input type="submit" class="btn" value="Отримати знижку">
 				</form>
 			</div>
@@ -744,33 +744,16 @@
 					<input type="hidden" name="DATA[TITLE]" value="Заявка с сайта">
 					<h4><span>Знижки 15-20%</span><br> на шафи-купе!</h4>
 					<p>Залишайте заявку на <b>бескоштовний замір</b> </p>
-					<label for="">Имя <i>(поле обязательно для заполнения)</i></label>
-					<input type="text" class="NAME required" name="name" placeholder="Введите ваше имя" value="" required>
-					<label for="">Телефон <i>(поле обязательно для заполнения)</i></label>
+					<label for="name2">Имя <i>(поле обязательно для заполнения)</i></label>
+					<input type="text" id="name2" class="NAME required" name="name2" placeholder="Введите ваше имя" value="" required>
+					<label for="phone2">Телефон <i>(поле обязательно для заполнения)</i></label>
 					<input type="text" class="_short" value="+3" readonly>
-					<input type="text" class="PHONE_WORK required _full" name="phone" id="phonem" value="" placeholder="(000) 000 00 00" autocomplete="off" required>
+					<input type="text" class="PHONE_WORK required _full" name="phone" id="phone2" value="" placeholder="(000) 000 00 00" autocomplete="off" required>
 					<input type="submit" class="btn" value="Получить скидку">
 				</form>
 			</div>
 		</div>
-	<!--	
-		<div class="banner _n5" id="contacts">
-			<div class="wrapper container">
 
-				<form class="bid js-form" action="mailer/smart.php" method="post" enctype="multipart/form-data">
-					<input type="hidden" name="DATA[TITLE]" value="Заявка с сайта">
-					<h4>Дарим скидку<br><span>10 %<br> ТОЛЬКО СЕГОДНЯ</span></h4>
-					<p>Наши специалисты <b>ответят на все ваши вопросы</b><br> и помогут подобрать подходящий для вас вариант</p>
-					<label for="">Имя <i>(поле обязательно для заполнения)</i></label>
-					<input type="text" class="NAME required" name="name" placeholder="Введите ваше имя" value="" required>
-					<label for="">Телефон <i>(поле обязательно для заполнения)</i></label>
-					<input type="text" class="_short" value="+3" readonly>
-					<input type="text" class="PHONE_WORK required _full" name="phone" id="phonem" value="" placeholder="(000) 000 00 00" autocomplete="off" required>
-					<input type="submit" class="btn" value="Получить скидку">
-				</form>
-			</div>
-		</div>
-		-->
 		<div class="section">
 			<div class="wrapper">
 				<h2>Контакти</h2>
@@ -790,6 +773,8 @@
 	</div>
 	
 	
+	</div>
+
 </div>
 <div class="dark js-dark"></div>
 <div class="popup js-popup" id="call">
@@ -799,11 +784,11 @@
 		<input type="hidden" class="f_type" name="f_type" value="call">
 		<h4>Бесплатный<br><span>вызов замерщика!</span></h4>
 		<p>Оставьте заявку, и наш специалист свяжется<br> с вами.</p>
-		<label for="">Имя <i>(поле обязательно для заполнения)</i></label>
-		<input type="text" class="NAME required" name="name" placeholder="Введите ваше имя" value="" autocomplete="off" required>
-		<label for="">Телефон <i>(поле обязательно для заполнения)</i></label>
+		<label for="name_3">Имя <i>(поле обязательно для заполнения)</i></label>
+		<input type="text" class="NAME required" id="name_3" name="name" placeholder="Введите ваше имя" value="" autocomplete="off" required>
+		<label for="phone_3">Телефон <i>(поле обязательно для заполнения)</i></label>
 		<input type="text" class="_short" value="+7" readonly>
-		<input type="text" class="PHONE_WORK required _full" name="phone" id="phonem" value="" placeholder="(000) 000 00 00" autocomplete="off" required>
+		<input type="text" class="PHONE_WORK required _full" name="phone" id="phone_3" value="" placeholder="(000) 000 00 00" autocomplete="off" required>
 		<input type="submit" class="btn" value="Отправить">
 	</form>
 </div>
@@ -814,12 +799,12 @@
 		<input type="hidden" class="f_type" name="f_type" value="que">
 		<h4>Просмотр <span>каталога!</span></h4>
 		<p>Оставьте заявку, и наш специалист свяжется<br> с вами, чтобы ответить на ваши вопросы.</p>
-		<label for="">Имя<i>(поле обязательно для заполнения)</i></label>
-		<input type="text" class="NAME" name="name" placeholder="Введите ваше имя" value="" autocomplete="off" required>
-		<label for="">Номер <i>(поле обязательно для заполнения)</i></label>
-		<input type="text" class="PHONE_WORK required" name="phone" id="phonem" placeholder="+3(XXX)XXX-XX-XX" value="" autocomplete="off" required>
-		<label for="">Какой месседжер вы используете? <i>(поле обязательно для заполнения)</i></label>
-		<textarea class="COMMENTS required" name="messager" placeholder="Напишите каким месседжером вы пользуетесь, что бы мы прислали вам катаог" required></textarea>
+		<label for="name4">Имя<i>(поле обязательно для заполнения)</i></label>
+		<input type="text" id="name4" class="NAME" name="name" placeholder="Введите ваше имя" value="" autocomplete="off" required>
+		<label for="phone4">Номер <i>(поле обязательно для заполнения)</i></label>
+		<input type="text" class="PHONE_WORK required" name="phone" id="phone4" placeholder="+3(XXX)XXX-XX-XX" value="" autocomplete="off" required>
+		<label for="messenger" >Какой месседжер вы используете? <i>(поле обязательно для заполнения)</i></label>
+		<textarea class="COMMENTS required" id="messenger" name="messager" placeholder="Напишите каким месседжером вы пользуетесь, что бы мы прислали вам катаог" required></textarea>
 		<input type="submit" class="btn" value="Отправить">
 	</form>
 </div>
@@ -830,11 +815,11 @@
 		<input type="hidden" class="f_type" name="f_type" value="feed">
 		<h4>Оставьте вашу<br><span>заявку</span></h4>
 		<p>Заполните форму, и мы обязательно<br> свяжемся с вами!</p>
-		<label for="">Имя <i>(поле обязательно для заполнения)</i></label>
-		<input type="text" class="NAME required" name="name" placeholder="Введите ваше имя" value="" autocomplete="off" required>
-		<label for="">Телефон <i>(поле обязательно для заполнения)</i></label>
+		<label for="name5">Имя <i>(поле обязательно для заполнения)</i></label>
+		<input type="text" class="NAME required" id="name5" placeholder="Введите ваше имя" value="" autocomplete="off" required>
+		<label for="phone5">Телефон <i>(поле обязательно для заполнения)</i></label>
 		<input type="text" class="_short" value="+3" readonly>
-		<input type="text" class="PHONE_WORK required _full" name="phone" id="phonem" value="" placeholder="(000) 000 00 00" autocomplete="off" required>
+		<input type="text" class="PHONE_WORK required _full" name="phone" id="phone5" value="" placeholder="(000) 000 00 00" autocomplete="off" required>
 		<input type="submit" class="btn" value="Отправить">
 	</form>
 </div>
