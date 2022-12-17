@@ -331,3 +331,28 @@ $('.project_slider').slick({
 	  }
 	]
 });
+
+
+// fix tabs bag
+let ctegoryList = document.querySelectorAll('.category');
+let needActiveElems = document.querySelectorAll('.needActive');
+let needReset =  document.querySelectorAll('.ware-charsctreictic');
+
+console.log(needReset);
+
+ctegoryList.forEach(function(elem, ){
+	elem.addEventListener('click', function(){	
+		
+		needReset.forEach(function(nr){
+			if(nr.classList.contains('active')){
+
+				nr.classList.remove('active');
+				
+			}
+		});
+
+		needActiveElems.forEach(function(needAct){
+			needAct.classList.add('active');
+		})
+	});
+})

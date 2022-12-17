@@ -3919,6 +3919,63 @@ text-align: center;
 
 
 
+.icon-pack.sleep-bravo{
+    background-image: url(../img/icons/sleeproom/bedroom.png);
+    
+}
+.icon-pack.sleep-eco{
+    background-image: url(../img/icons/sleeproom/bedroom7.png);
+    
+}
+.icon-pack.sleep-loft{
+    background-image: url(../img/icons/sleeproom/bedroom8.png);
+}
+.icon-pack.sleep-trend{
+    background-image: url(../img/icons/sleeproom/furniture.png);
+
+}
+
+
+
+.icon-pack.beds-bravo{
+    background-image: url(../img/icons/beds/bed.png);
+    
+}
+.icon-pack.beds-eco{
+    background-image: url(../img/icons/beds/bed1.png);
+    
+}
+.icon-pack.beds-loft{
+    background-image: url(../img/icons/beds/bed5.png);
+}
+.icon-pack.beds-trend{
+    background-image: url(../img/icons/beds/bed2.png);
+
+}
+.icon-pack.beds-oxford{
+    background-image: url(../img/icons/beds/bed3.png);
+
+}
+
+
+.icon-pack.table-bravo{
+    background-image: url(../img/icons/tables/desk.png);
+    
+}
+.icon-pack.table-eco{
+    background-image: url(../img/icons/tables/studio.png);
+    
+}
+.icon-pack.table-loft{
+    background-image: url(../img/icons/tables/t1.png);
+}
+.icon-pack.table-oxford{
+    background-image: url(../img/icons/tables/t2.png);
+
+}
+
+
+
 
 .download{
     margin: 0;
