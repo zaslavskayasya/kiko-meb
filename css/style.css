@@ -3946,6 +3946,28 @@ text-align: center;
         float: right;
         width: 100%;
     }
+    .advantages li span{
+        transform: scale(0.6);
+    }
+    .advantages li p {
+        font: 22px/22px OpenSansRegular;
+        margin-top: 0px;
+    }
+    .advantages li {
+        display: inline-block;
+        vertical-align: top;
+        padding: 0 25px 19px;
+    }
+    .banner {
+        background-position: 76% 0;
+    }
+    .banner .bid h4 {
+        font: 35px/40px OpenSansExtraBold;
+    }
+    .banner .bid {
+        float: right;
+        width: 402px;
+    }
 
 }
 
@@ -4106,7 +4128,7 @@ text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
     position: relative;
-    height: 130px;
+    /* height: 130px; */
     top: 190px
 }
 
