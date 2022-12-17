@@ -1662,7 +1662,10 @@ select::-ms-expand {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-
+.project__item .descr h4 span {
+    display: block;
+    color: red;
+}
 .project__item .descr li {
     width: 100%;
     clear: both;
@@ -2041,7 +2044,7 @@ select::-ms-expand {
 }
 
 .banner._n1 {
-    background-image: url(../img/banner1.jpg);
+    background-image: url(../img/backs/cupe.jpg);
 }
 
 .banner._n2 {
@@ -2059,7 +2062,7 @@ select::-ms-expand {
 }
 
 .banner._n3 {
-    background-image: url(../img/banner3f.jpg);
+    background-image: url(../img/backs/kitchen.jpg);
     margin-top: 40px;
 }
 
