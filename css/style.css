@@ -4114,6 +4114,40 @@ text-align: center;
 
         right: 10px;
     }
+    .banner .bid {
+       
+        width: 100%;
+    }
+    .banner._n2 {
+        padding-top: 14px;
+        background-image: url(../img/backs/mob_banner.png);
+    }
+    .banner .bid p {
+        font: 22px/24px OpenSansRegular;
+    }
+    .banner .bid label {
+        font: 13px/24px OpenSansRegular;
+    }
+    .printing__plus li:before {
+        transform: scale(0.8);
+    }
+    .printing__plus li p {
+        margin-top: 11px;
+        margin-bottom: 16px;
+    }
+    .banner._n1 {
+        padding-top: 35px;
+        background-image: url(../img/backs/mob_banner2.png);
+    }
+    .banner._n3 {
+        background-image: url(../img/backs/mob_banner3.png);
+        padding-top: 35px;
+        margin-top: 40px;
+    }
+    .testimonial-inner .tour-desc {
+        border-radius: 5px;
+        padding: 11px;
+    }
 }
 
 

@@ -320,5 +320,14 @@ $('.project_slider').slick({
 		  slidesToScroll: 2,
 		  arrows: false
 		}
-	  }]
+	  },
+	  {
+		breakpoint: 600,
+		settings: {
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		  arrows: false
+		}
+	  }
+	]
 });
