@@ -3852,6 +3852,74 @@ text-align: center;
 
 }
 
+
+
+.icon-pack.hall-bravo{
+    background-image: url(../img/icons/halls/cabinet.png);
+
+}
+
+.icon-pack.hall-eco{
+    background-image: url(../img/icons/halls/closet.png);
+
+}
+.icon-pack.hall-vendo{
+    background-image: url(../img/icons/halls/hanger.png);
+
+}
+.icon-pack.hall-prestij{
+    background-image: url(../img/icons/halls/wardrobe.png);
+
+}
+.icon-pack.hall-trend{
+    background-image: url(../img/icons/halls/wardrobe7.png);
+
+}
+.icon-pack.hall-loft{
+    background-image: url(../img/icons/halls/wardrobe9.png);
+    
+}
+.icon-pack.hall-cupe{
+    background-image: url(../img/icons/halls/wardrobe8.png);
+
+}
+
+.icon-pack.guest-bravo{
+    background-image: url(../img/icons/guests/wardrobe.png);
+
+}
+.icon-pack.guest-eco{
+    background-image: url(../img/icons/guests/home-theater.png);
+    
+}
+.icon-pack.guest-loft{
+    background-image: url(../img/icons/guests/wardrobe6.png);
+    
+}
+.icon-pack.guest-cupe{
+    background-image: url(../img/icons/guests/wardrobe9.png);
+
+}
+
+
+
+.icon-pack.child-bravo{
+    background-image: url(../img/icons/childrens/bed.png);
+    
+}
+.icon-pack.child-eco{
+    background-image: url(../img/icons/childrens/bedroom.png);
+    
+}
+.icon-pack.child-oxford{
+    background-image: url(../img/icons/childrens/bedroom1.png);
+
+}
+
+
+
+
+
 .download{
     margin: 0;
     float: left;
