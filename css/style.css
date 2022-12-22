@@ -4183,8 +4183,10 @@ text-align: center;
     margin-bottom: 35px;;
 }
 .catalog-img {
-    max-height: 218px;
+    max-height: 200px;
     overflow: hidden;
+    display: block;
+    margin-bottom: 20px;
 
 }
 .catalog-img img{
