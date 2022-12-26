@@ -311,7 +311,32 @@ tabs.forEach(tab => {
 $('.project_slider').slick({
 	slidesToShow: 3,
 	slidesToScroll: 3,
-	arrows: false,
+	arrows: true,
+	// margin: 5,
+	 responsive: [
+	  {
+		breakpoint: 1200,
+		settings: {
+		  slidesToShow: 2,
+		  slidesToScroll: 2,
+		  arrows: false
+		}
+	  },
+	  {
+		breakpoint: 600,
+		settings: {
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		  arrows: false
+		}
+	  }
+	]
+});
+$('.rev-slider').slick({
+	slidesToShow: 3,
+	slidesToScroll: 3,
+	arrows: true,
+	// margin: 5,
 	 responsive: [
 	  {
 		breakpoint: 1200,
@@ -332,13 +357,12 @@ $('.project_slider').slick({
 	]
 });
 
-
 // fix tabs bag
 let ctegoryList = document.querySelectorAll('.category');
 let needActiveElems = document.querySelectorAll('.needActive');
 let needReset =  document.querySelectorAll('.ware-charsctreictic');
 
-console.log(needReset);
+// console.log(needReset);
 
 ctegoryList.forEach(function(elem, ){
 	elem.addEventListener('click', function(){	
